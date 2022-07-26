@@ -8,11 +8,6 @@ namespace Shipping.Controllers
 {
   public class HomeController : Controller
   {
-    [Route("/hello")]
-    public string Hello() { return "Hello friend!"; }
-
-    [Route("/goodbye")]
-    public string Goodbye() { return "Goodbye friend."; }
 
     [Route("/shipOne")]
     public ActionResult Shipping(string Order1, string Order2, string Order3, string Distributor, string Description, string Date)
@@ -42,6 +37,12 @@ namespace Shipping.Controllers
         }
     [Route("/form")]
     public ActionResult Form() { return View(); }
+
+    [Route("/items/new")]
+    public ActionResult CreateOrder()
+    {
+      return View();
+    }
 
   }
 }

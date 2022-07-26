@@ -30,3 +30,4 @@ E:\Codenstuff\Shipping.Solution\shipping\obj\Debug\net5.0\Shipping.RazorTargetAs
 E:\Codenstuff\Shipping.Solution\shipping\obj\Debug\net5.0\Shipping.Views.pdb
 E:\Codenstuff\Shipping.Solution\shipping\obj\Debug\net5.0\Shipping.csproj.CopyComplete
 E:\Codenstuff\Shipping.Solution\Shipping\obj\Debug\net5.0\Razor\Views\Home\Form.cshtml.g.cs
+E:\Codenstuff\Shipping.Solution\shipping\obj\Debug\net5.0\Razor\Views\Home\CreateOrder.cshtml.g.cs

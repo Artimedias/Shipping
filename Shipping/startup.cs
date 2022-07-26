@@ -36,7 +36,7 @@ namespace FriendLetter
 
       app.Run(async (context) =>
       {
-        await context.Response.WriteAsync("Hello World!");
+        await context.Response.WriteAsync("Well, thats not supposed to happen.");
       });
     }
   }

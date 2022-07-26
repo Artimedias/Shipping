@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Order Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    <h1>Enter in a new shipping order</h1>
+    <form action="/shipOne" method="post">
+        <label for="Distributor">Where are you buying this from?</label>
+        <label for="Distributor">John's Farm</label>
+        <input checked="checked" id="Distributor" name="Distributor" type="radio" value="John's Farm">
+        <label for="Distributor">Beckys Plastics</label>
+        <input id="Distributor" name="Distributor" type="radio" value="Beckys Plastics">
+        <label for="Distributor">Boxes Inc</label>
+        <input id="Distributor" name="Distributor" type="radio" value="Boxes Inc">
+
+        <br />
+        <p>What are you ordering?</p>
+        <input checked="checked" id="Order1" name="Order1" type="checkbox" value="flour">
+        <label for="Order1">Text 1</label>
+
+        <input id="Order2" name="Order2" type="checkbox" value="cookies">
+        <label for="Order2">Text 2</label>
+
+        <input id="Order3" name="Order3" type="checkbox" value="ice_cream">
+        <label for="Order3">Text 3</label>
+        <br />
+        <label for="Description">Any Important Details for the Order?</label>
+        <input id="Description" name="Description" type="text">
+        <br />
+        <br />
+        <br />
+        <label for="Date">What is the date?</label>
+        <input id="Date" name="Date" type="date">
+
+        <button type="submit">Enter Order</button>
+
+    </form>
+</body>
+</html>
