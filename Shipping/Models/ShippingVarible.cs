@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System;
+using System.Text.RegularExpressions;
 
 namespace Shipping.Models
 {
@@ -26,7 +27,13 @@ namespace Shipping.Models
             {
                 Time = value;
 
-                Console.WriteLine(Time);
+                 Time = Regex.Replace(Time, @"-", "");
+
+                int NewTime = int.Parse(Time);
+
+                NewTime += 5;
+                Time = NewTime.ToString();
+                
             }
         }
         public string Order

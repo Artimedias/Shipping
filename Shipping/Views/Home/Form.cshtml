@@ -9,7 +9,13 @@
     <h1>Fill in your name and your friend's name to create your custom postcard!</h1>
     <form action="/shipOne" method="post">
         <label for="Distributor">Where are you buying this from?</label>
-        <input id="Distributor" name="Distributor" type="text">
+        <label for="Distributor">John's Farm</label>
+        <input checked="checked" id="Distributor" name="Distributor" type="radio" value="John's Farm">
+        <label for="Distributor">Beckys Plastics</label>
+        <input id="Distributor" name="Distributor" type="radio" value="Beckys Plastics">
+        <label for="Distributor">Boxes Inc</label>
+        <input id="Distributor" name="Distributor" type="radio" value="Boxes Inc">
+
         <br />
         <p>What are you ordering?</p>
         <input checked="checked" id="Order1" name="Order1" type="checkbox" value="flour">
@@ -17,7 +23,7 @@
 
         <input id="Order2" name="Order2" type="checkbox" value="cookies">
         <label for="Order2">Text 2</label>
-        
+
         <input id="Order3" name="Order3" type="checkbox" value="ice_cream">
         <label for="Order3">Text 3</label>
         <br />
@@ -30,7 +36,7 @@
         <input id="Date" name="Date" type="date">
 
         <button type="submit">Enter Order</button>
-        
+
     </form>
 </body>
 </html>
