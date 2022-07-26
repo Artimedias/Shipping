@@ -10,9 +10,27 @@
     <form action="/shipOne" method="post">
         <label for="Distributor">Where are you buying this from?</label>
         <input id="Distributor" name="Distributor" type="text">
-        <label for="Order">What are you ordering?</label>
-        <input id="Order" name="Order" type="text">
-        <button type="submit">Go!</button>
+        <br />
+        <p>What are you ordering?</p>
+        <input checked="checked" id="Order1" name="Order1" type="checkbox" value="flour">
+        <label for="Order1">Text 1</label>
+
+        <input id="Order2" name="Order2" type="checkbox" value="cookies">
+        <label for="Order2">Text 2</label>
+        
+        <input id="Order3" name="Order3" type="checkbox" value="ice_cream">
+        <label for="Order3">Text 3</label>
+        <br />
+        <label for="Description">Any Important Details for the Order?</label>
+        <input id="Description" name="Description" type="text">
+        <br />
+        <br />
+        <br />
+        <label for="Date">What is the date?</label>
+        <input id="Date" name="Date" type="date">
+
+        <button type="submit">Enter Order</button>
+        
     </form>
 </body>
 </html>

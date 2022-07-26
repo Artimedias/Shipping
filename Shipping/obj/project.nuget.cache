@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tKnYUrJfYXD4sf1IGE1GPLjHl6+EmGmIo0wsBJPu2iJWQOdbL8VljYxNW+7L8mlqrMGlogIKCs7jPBQjYWEpkg==",
+  "dgSpecHash": "nqSlqhOS6avfglRIywuPdBnZ3IcaMuCzdsAZmbGpkiiwPIFxGer8QM5FIMaHd+8yi/Bxa+VhRsr3KlnzZo91bA==",
   "success": true,
-  "projectFilePath": "E:\\Codenstuff\\Shipping.Solution\\Shipping\\Shipping.csproj",
+  "projectFilePath": "E:\\Codenstuff\\Shipping.Solution\\shipping\\Shipping.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brett\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
   ],

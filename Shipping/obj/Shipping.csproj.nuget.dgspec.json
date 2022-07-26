@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Codenstuff\\Shipping.Solution\\Shipping\\Shipping.csproj": {}
+    "E:\\Codenstuff\\Shipping.Solution\\shipping\\Shipping.csproj": {}
   },
   "projects": {
-    "E:\\Codenstuff\\Shipping.Solution\\Shipping\\Shipping.csproj": {
+    "E:\\Codenstuff\\Shipping.Solution\\shipping\\Shipping.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Codenstuff\\Shipping.Solution\\Shipping\\Shipping.csproj",
+        "projectUniqueName": "E:\\Codenstuff\\Shipping.Solution\\shipping\\Shipping.csproj",
         "projectName": "Shipping",
-        "projectPath": "E:\\Codenstuff\\Shipping.Solution\\Shipping\\Shipping.csproj",
+        "projectPath": "E:\\Codenstuff\\Shipping.Solution\\shipping\\Shipping.csproj",
         "packagesPath": "C:\\Users\\brett\\.nuget\\packages\\",
-        "outputPath": "E:\\Codenstuff\\Shipping.Solution\\Shipping\\obj\\",
+        "outputPath": "E:\\Codenstuff\\Shipping.Solution\\shipping\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
